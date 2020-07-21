@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Asignar Tarea"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Trabajador a asignar"
+                    android:layout_marginTop="100px">
+                </TextView>
+
+            <Spinner
+                android:id="@+id/asignarTrabajador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></Spinner>
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Tarea a asignar"></TextView>
+
+            <Spinner
+                android:id="@+id/asignarTarea"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                ></Spinner>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Medidor a asignar"></TextView>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/medidorAsignar"></Spinner>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/guardarTarea"
+                android:layout_marginTop="100px"
+                android:hint="Asignar Tarea"></Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/volverAsignarTarea"
+                android:layout_marginTop="50px"
+                android:hint="Volver"></Button>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

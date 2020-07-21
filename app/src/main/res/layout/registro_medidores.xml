@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idMedidorRegMedidor"
+                android:hint="Numero de medidor"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center">
+
+            </EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/direccionRegMedidor"
+                android:hint="Calle"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center">
+
+            </EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/propietarioRegMedidor"
+                android:hint="Propietario"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center">
+            </EditText>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Comuna"
+                android:textSize="20dp"></TextView>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/comunaRegMedidor"></Spinner>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/guardarRegistroCasa"
+                android:text="Guardar"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginTop="100px"
+                android:layout_gravity="center_vertical">
+
+            </Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/volverRegistroCasa"
+                android:text="Volver"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginTop="75px"
+                android:layout_gravity="center_vertical">
+
+            </Button>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

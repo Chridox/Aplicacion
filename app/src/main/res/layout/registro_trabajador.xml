@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Registro de trabajador"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"></TextView>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/registroNombreTrabajador"
+                android:hint="Nombre del trabajador"
+                android:layout_marginTop="100px"></EditText>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:text="Cargo"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"></TextView>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/registroCargoTrabajador"></Spinner>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/registroUsuTrabajador"
+                android:hint="Usuario del trabajador"></EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/registroConTrabajador"
+                android:hint="Contraseña del trabajador"></EditText>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/registrarTrabajador"
+                android:hint="Registrar Trabajador"></Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/volverTrabajador"
+                android:layout_marginTop="100px"
+                android:hint="Volver"></Button>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

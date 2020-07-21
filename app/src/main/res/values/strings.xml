@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Aguacoop</string>
+
+ <string-array name="trabajos">
+     <item>Limpiar Fosa</item>
+     <item>Instalar Medidor</item>
+     <item>Reparar Medidor</item>
+ </string-array>
+</resources>
